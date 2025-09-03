@@ -1,0 +1,30 @@
+{
+  "name": "meditrail-ocr-client",
+  "version": "1.0.0",
+  "description": "Node.js client for Meditrail OCR API",
+  "main": "ocr-client.js",
+  "scripts": {
+    "start": "node ocr-client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "meditrail",
+    "ocr",
+    "medical",
+    "api",
+    "clinical"
+  ],
+  "author": "Meditrail",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meditrail/clinical-apis-examples"
+  }
+}

@@ -1,23 +1,29 @@
-# Meditrail Clinical APIs Examples
+# Healthcare OCR - Medical Document & Clinical Data Extraction
 
-This repository contains example implementations for various Meditrail Clinical APIs in Python, Java, and Node.js. These APIs help process medical documents and data for clinical insights and analysis.
+Turn medical paperwork (handwritten prescriptions, lab reports, x-ray, MRI scan, insurance claims, scanned records) into EMR-ready structured JSON using advanced OCR + AI contextual extraction. 
+- HIPAA & SOC 2 compliant
+- API-first. Available in - in Python, Java, and Node.js.
 
-## Available APIs
+## About Healthcare OCR
 
-### 🔍 [OCR API](./ocr/) - Document Processing
+Healthcare OCR helps healthcare providers, telehealth platforms, and insurers eliminate manual data entry by digitizing medical paperwork into structured, actionable data.
+
+- Extracts handwriting, prescriptions, lab forms, claims, and medical scans
+- Identifies labs, vitals, diagnoses, and medications automatically
+- Outputs clean JSON ready for EMR/EHR systems or analytics pipelines
+
+### 🔍 [MediScan API](./ocr/) - Clinical/Medical Document Processing API
+
 Process medical documents (PDF or images) for OCR-based transcription and structured clinical extraction.
 
-**Features:**
-- Extract text from medical documents
-- Identify document types (prescriptions, X-rays, reports)
-- Extract clinical insights and findings
-- Support for PDF, JPG, PNG formats
-
-### 🎤 ASR API - Coming Soon
-Automatic Speech Recognition for medical consultations and dictations.
-
-### 📊 SafeRx+ APIs - Coming Soon
-Additional clinical APIs will be added to this repository.
+**Features and Capabilities:**
+- **Advanced OCR** → Reads across low-quality scans & handwriting with high accuracy
+- **Contextual Extraction** → Goes beyond text: extracts diagnoses, medications, handwritten doctor prescriptions  X-rays, MRI and lab results
+- **Structured JSON Output** → EMR-ready, no messy parsing required
+- **API-First Integration** → Plug seamlessly into hospital, telehealth, or insurance workflows
+- **Compliance Built-In** → HIPAA & SOC 2 certified for secure usage
+- **Efficiency** → 70% less manual data entry → reduced admin burden & lower costs
+- **Multiple document type support** → Support for PDF, JPG, PNG formats
 
 ## Quick Start
 
@@ -30,18 +36,16 @@ Additional clinical APIs will be added to this repository.
 ## Repository Structure
 
 ```
-clinical-apis-examples/
+health-ocr/
 ├── README.md                    # This file
 ├── LICENSE                      # MIT License
 ├── .gitignore                   # Git ignore rules
-├── ocr/                         # OCR API examples
-│   ├── README.md               # OCR-specific documentation
-│   ├── python/                 # Python implementation
-│   ├── java/                   # Java implementation
-│   ├── nodejs/                 # Node.js implementation
-│   └── sample_files/           # Test files
-├── asr/                        # ASR API examples (coming soon)
-└── [other-apis]/               # Future API examples
+└── ocr/                         # OCR API examples
+   ├── README.md               # OCR-specific documentation
+   ├── python/                 # Python implementation
+   ├── java/                   # Java implementation
+   ├── nodejs/                 # Node.js implementation
+   └── sample_files/           # Test files
 ```
 
 ## Getting Started
@@ -52,8 +56,7 @@ clinical-apis-examples/
 - **Node.js:** 14.0+ with npm
 
 ### API Access
-- **Explore:** Browse [https://developer.unitedwecare.com](https://developer.unitedwecare.com) to explore details
-- **Get API Access:** Contact [rana@unitedwecare.com](mailto:rana@unitedwecare.com) to get access to the Meditrail APIs
+- **Get API Access:** Contact [contactus@unitedwecare.com](mailto:contactus@unitedwecare.com) to get access to the MediScan API
 
 ## Contributing
 

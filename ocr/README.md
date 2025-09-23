@@ -11,15 +11,17 @@ The **MediScan OCR API** processes medical documents (PDFs and images) for **OCR
 
 ## 🔍 API Overview
 
-- **Endpoint:**  
-  `POST https://meditrail.unitedwecare.com/api/v1/ocr/process`
+- **Endpoint:**
+  ```
+  POST https://meditrail.unitedwecare.com/api/v1/ocr/process
+  ```
+  
+- **Authentication:**   API Key via request header
+  ```bash
+    X-API-Key: your_api_key_here
+  ```
 
-- **Authentication:**  
-  API Key via request header  
-  ```http
-  X-API-Key: your_api_key_here
-```
-**Supported File Types:** PDF, JPG, JPEG, PNG (max 50MB)
+- **Supported File Types:** PDF, JPG, JPEG, PNG (max 50MB)
 
 ### 🚀 Features
 

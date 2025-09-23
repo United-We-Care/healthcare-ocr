@@ -1,5 +1,5 @@
 
-# 🏥 MediScan OCR API – Healthcare Document & Clinical Data Extraction
+## 🏥 MediScan OCR API – Healthcare Document & Clinical Data Extraction
 
 The **MediScan OCR API** processes medical documents (PDFs and images) for **OCR transcription** and **structured clinical extraction**, making them EMR/EHR-ready.
 

@@ -45,7 +45,7 @@ health-ocr/
 ```
 ## ⚡ Quick Start
 
-###Prerequisites
+### Prerequisites
 
 - **Python**: 3.6+ with pip
 - **Java**: 11+ with Maven

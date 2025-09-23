@@ -1,25 +1,35 @@
-# Meditrail OCR API Examples
 
-This directory contains example implementations for the Meditrail OCR API in Python, Java, and Node.js. The API allows you to process medical documents (PDF or images) for OCR-based transcription and structured clinical extraction.
+# 🏥 MediScan OCR API – Healthcare Document & Clinical Data Extraction
 
-## API Overview
+The **MediScan OCR API** processes medical documents (PDFs and images) for **OCR transcription** and **structured clinical extraction**, making them EMR/EHR-ready.
 
-**Endpoint:** `POST https://meditrail.unitedwecare.com/api/v1/ocr/process`
+✅ **HIPAA & SOC 2 Compliant**  
+✅ **Supports Handwriting, Medical Scans, Prescriptions**  
+✅ **API-first** with ready examples in **Python, Java, and Node.js**
 
-**Authentication:** API Key in header `X-API-Key`
+---
 
+## 🔍 API Overview
+
+- **Endpoint:**  
+  `POST https://meditrail.unitedwecare.com/api/v1/ocr/process`
+
+- **Authentication:**  
+  API Key via request header  
+  ```http
+  X-API-Key: your_api_key_here
+```
 **Supported File Types:** PDF, JPG, JPEG, PNG (max 50MB)
 
-## Features
+### 🚀 Features
 
-- ✅ Process medical documents and images
-- ✅ Extract clinical data and insights
-- ✅ Support for PDF and image formats
-- ✅ Comprehensive error handling
-- ✅ Usage limit enforcement
-- ✅ Custom system prompts for extraction logic
+- ✅ OCR transcription of medical documents and images
+- ✅ Automatic extraction of clinical data, labs, medications, diagnoses
+- ✅ Support for multi-page PDFs & medical image formats
+- ✅ Custom system prompts for contextual extraction
+- ✅ Built-in error handling & usage limits
 
-## Quick Start
+## ⚡ Quick Start
 
 ### Python Example
 
@@ -194,13 +204,14 @@ All examples include comprehensive error handling for:
 - axios ^1.6.0
 - form-data ^4.0.0
 
-## Sample Files
+## 🧪 Sample Files
 
-Add your test files to the `sample_files/` directory:
+Use the provided test files in /sample_files/:
 
-- `chest_xray.jpg` - Medical image for testing
-- `MRI_CT_Scan.pdf` - MRI/CT scan document for testing
-- `hw_prescription.jpg` - Prescription document for testing
+- `chest_xray.jpg` → medical image
+- `MRI_CT_Scan.pdf` → MRI/CT scan report
+- `hw_prescription.jpg` → handwritten prescription
+
 
 ## API Limits
 
@@ -223,5 +234,4 @@ For API support and questions:
 
 ## Explore & Access
 
-- **Explore:** Browse [https://developer.unitedwecare.com](https://developer.unitedwecare.com) to explore details
-- **Get API Access:** Contact [rana@unitedwecare.com](mailto:rana@unitedwecare.com) to get access to the Meditrail OCR API
+- **Get API Access:** Contact [contactus@unitedwecare.com](mailto:contactus@unitedwecare.com) to get access to the MediScan OCR API

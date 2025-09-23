@@ -58,6 +58,16 @@ health-ocr/
 - **Add API Key to config**
 - **Run examples with sample files**
 
+## 🚀 Try MediScan OCR API on RapidAPI
+
+You can explore, test, and integrate the **MediScan OCR API** directly on **RapidAPI**: [![View on RapidAPI](https://img.shields.io/badge/RapidAPI-MediScan-blue)](https://rapidapi.com/united-we-care-united-we-care-default/api/clinical-api1)
+
+
+- ✅ Test API calls in the RapidAPI Playground  
+- ✅ Get code snippets in Python, JavaScript, PHP, and more  
+- ✅ Manage authentication and subscription plans easily  
+
+
 ## 🤝 Contributing
 
 We welcome contributions!
